@@ -16,6 +16,8 @@
 		B1B657482AF783E200467E76 /* guardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B657472AF783E200467E76 /* guardUITestsLaunchTests.swift */; };
 		B1B657582AF7847800467E76 /* scannermanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B657572AF7847800467E76 /* scannermanager.swift */; };
 		B1B6575A2AF784C500467E76 /* vuln.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B657592AF784C500467E76 /* vuln.swift */; };
+		B1B6575C2AF78AB500467E76 /* scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6575B2AF78AB500467E76 /* scanner.swift */; };
+		B1B657602AF78B4000467E76 /* airdropdisablecheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6575F2AF78B4000467E76 /* airdropdisablecheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B1B657472AF783E200467E76 /* guardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B1B657572AF7847800467E76 /* scannermanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scannermanager.swift; sourceTree = "<group>"; };
 		B1B657592AF784C500467E76 /* vuln.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vuln.swift; sourceTree = "<group>"; };
+		B1B6575B2AF78AB500467E76 /* scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scanner.swift; sourceTree = "<group>"; };
+		B1B6575F2AF78B4000467E76 /* airdropdisablecheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airdropdisablecheck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		B1B657282AF783E100467E76 /* guard */ = {
 			isa = PBXGroup;
 			children = (
+				B1B6575D2AF78B1100467E76 /* modules */,
 				B1B657542AF7845000467E76 /* core */,
 				B1B657292AF783E100467E76 /* guardApp.swift */,
 				B1B6572B2AF783E100467E76 /* ContentView.swift */,
@@ -139,8 +144,25 @@
 			children = (
 				B1B657572AF7847800467E76 /* scannermanager.swift */,
 				B1B657592AF784C500467E76 /* vuln.swift */,
+				B1B6575B2AF78AB500467E76 /* scanner.swift */,
 			);
 			path = core;
+			sourceTree = "<group>";
+		};
+		B1B6575D2AF78B1100467E76 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				B1B6575E2AF78B3200467E76 /* benchmark */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		B1B6575E2AF78B3200467E76 /* benchmark */ = {
+			isa = PBXGroup;
+			children = (
+				B1B6575F2AF78B4000467E76 /* airdropdisablecheck.swift */,
+			);
+			path = benchmark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,10 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B6575C2AF78AB500467E76 /* scanner.swift in Sources */,
 				B1B6572C2AF783E100467E76 /* ContentView.swift in Sources */,
 				B1B657582AF7847800467E76 /* scannermanager.swift in Sources */,
 				B1B6575A2AF784C500467E76 /* vuln.swift in Sources */,
 				B1B6572A2AF783E100467E76 /* guardApp.swift in Sources */,
+				B1B657602AF78B4000467E76 /* airdropdisablecheck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
