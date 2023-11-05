@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1B6572A2AF783E100467E76 /* guardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B657292AF783E100467E76 /* guardApp.swift */; };
+		B1B6572C2AF783E100467E76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6572B2AF783E100467E76 /* ContentView.swift */; };
+		B1B6572E2AF783E200467E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B6572D2AF783E200467E76 /* Assets.xcassets */; };
+		B1B657312AF783E200467E76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B657302AF783E200467E76 /* Preview Assets.xcassets */; };
+		B1B6573C2AF783E200467E76 /* guardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6573B2AF783E200467E76 /* guardTests.swift */; };
+		B1B657462AF783E200467E76 /* guardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B657452AF783E200467E76 /* guardUITests.swift */; };
+		B1B657482AF783E200467E76 /* guardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B657472AF783E200467E76 /* guardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1B657382AF783E200467E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B6571E2AF783E100467E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B657252AF783E100467E76;
+			remoteInfo = guard;
+		};
+		B1B657422AF783E200467E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B6571E2AF783E100467E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B657252AF783E100467E76;
+			remoteInfo = guard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1B657262AF783E100467E76 /* guard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B657292AF783E100467E76 /* guardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardApp.swift; sourceTree = "<group>"; };
+		B1B6572B2AF783E100467E76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1B6572D2AF783E200467E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1B657302AF783E200467E76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1B657322AF783E200467E76 /* guard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = guard.entitlements; sourceTree = "<group>"; };
+		B1B657372AF783E200467E76 /* guardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B6573B2AF783E200467E76 /* guardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardTests.swift; sourceTree = "<group>"; };
+		B1B657412AF783E200467E76 /* guardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B657452AF783E200467E76 /* guardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardUITests.swift; sourceTree = "<group>"; };
+		B1B657472AF783E200467E76 /* guardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1B657232AF783E100467E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B657342AF783E200467E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B6573E2AF783E200467E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1B6571D2AF783E100467E76 = {
+			isa = PBXGroup;
+			children = (
+				B1B657282AF783E100467E76 /* guard */,
+				B1B6573A2AF783E200467E76 /* guardTests */,
+				B1B657442AF783E200467E76 /* guardUITests */,
+				B1B657272AF783E100467E76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1B657272AF783E100467E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B657262AF783E100467E76 /* guard.app */,
+				B1B657372AF783E200467E76 /* guardTests.xctest */,
+				B1B657412AF783E200467E76 /* guardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1B657282AF783E100467E76 /* guard */ = {
+			isa = PBXGroup;
+			children = (
+				B1B657292AF783E100467E76 /* guardApp.swift */,
+				B1B6572B2AF783E100467E76 /* ContentView.swift */,
+				B1B6572D2AF783E200467E76 /* Assets.xcassets */,
+				B1B657322AF783E200467E76 /* guard.entitlements */,
+				B1B6572F2AF783E200467E76 /* Preview Content */,
+			);
+			path = guard;
+			sourceTree = "<group>";
+		};
+		B1B6572F2AF783E200467E76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1B657302AF783E200467E76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1B6573A2AF783E200467E76 /* guardTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B6573B2AF783E200467E76 /* guardTests.swift */,
+			);
+			path = guardTests;
+			sourceTree = "<group>";
+		};
+		B1B657442AF783E200467E76 /* guardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B657452AF783E200467E76 /* guardUITests.swift */,
+				B1B657472AF783E200467E76 /* guardUITestsLaunchTests.swift */,
+			);
+			path = guardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1B657252AF783E100467E76 /* guard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B6574B2AF783E200467E76 /* Build configuration list for PBXNativeTarget "guard" */;
+			buildPhases = (
+				B1B657222AF783E100467E76 /* Sources */,
+				B1B657232AF783E100467E76 /* Frameworks */,
+				B1B657242AF783E100467E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guard;
+			productName = guard;
+			productReference = B1B657262AF783E100467E76 /* guard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1B657362AF783E200467E76 /* guardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B6574E2AF783E200467E76 /* Build configuration list for PBXNativeTarget "guardTests" */;
+			buildPhases = (
+				B1B657332AF783E200467E76 /* Sources */,
+				B1B657342AF783E200467E76 /* Frameworks */,
+				B1B657352AF783E200467E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B657392AF783E200467E76 /* PBXTargetDependency */,
+			);
+			name = guardTests;
+			productName = guardTests;
+			productReference = B1B657372AF783E200467E76 /* guardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1B657402AF783E200467E76 /* guardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B657512AF783E200467E76 /* Build configuration list for PBXNativeTarget "guardUITests" */;
+			buildPhases = (
+				B1B6573D2AF783E200467E76 /* Sources */,
+				B1B6573E2AF783E200467E76 /* Frameworks */,
+				B1B6573F2AF783E200467E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B657432AF783E200467E76 /* PBXTargetDependency */,
+			);
+			name = guardUITests;
+			productName = guardUITests;
+			productReference = B1B657412AF783E200467E76 /* guardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1B6571E2AF783E100467E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B1B657252AF783E100467E76 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					B1B657362AF783E200467E76 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B1B657252AF783E100467E76;
+					};
+					B1B657402AF783E200467E76 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B1B657252AF783E100467E76;
+					};
+				};
+			};
+			buildConfigurationList = B1B657212AF783E100467E76 /* Build configuration list for PBXProject "guard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1B6571D2AF783E100467E76;
+			productRefGroup = B1B657272AF783E100467E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1B657252AF783E100467E76 /* guard */,
+				B1B657362AF783E200467E76 /* guardTests */,
+				B1B657402AF783E200467E76 /* guardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1B657242AF783E100467E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B657312AF783E200467E76 /* Preview Assets.xcassets in Resources */,
+				B1B6572E2AF783E200467E76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B657352AF783E200467E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B6573F2AF783E200467E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1B657222AF783E100467E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B6572C2AF783E100467E76 /* ContentView.swift in Sources */,
+				B1B6572A2AF783E100467E76 /* guardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B657332AF783E200467E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B6573C2AF783E200467E76 /* guardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B6573D2AF783E200467E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B657482AF783E200467E76 /* guardUITestsLaunchTests.swift in Sources */,
+				B1B657462AF783E200467E76 /* guardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1B657392AF783E200467E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1B657252AF783E100467E76 /* guard */;
+			targetProxy = B1B657382AF783E200467E76 /* PBXContainerItemProxy */;
+		};
+		B1B657432AF783E200467E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1B657252AF783E100467E76 /* guard */;
+			targetProxy = B1B657422AF783E200467E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B1B657492AF783E200467E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1B6574A2AF783E200467E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B1B6574C2AF783E200467E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = guard/guard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"guard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.guard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B1B6574D2AF783E200467E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = guard/guard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"guard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.guard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B1B6574F2AF783E200467E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.guardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/guard";
+			};
+			name = Debug;
+		};
+		B1B657502AF783E200467E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.guardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/guard";
+			};
+			name = Release;
+		};
+		B1B657522AF783E200467E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.guardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = guard;
+			};
+			name = Debug;
+		};
+		B1B657532AF783E200467E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.guardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = guard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1B657212AF783E100467E76 /* Build configuration list for PBXProject "guard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B657492AF783E200467E76 /* Debug */,
+				B1B6574A2AF783E200467E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B6574B2AF783E200467E76 /* Build configuration list for PBXNativeTarget "guard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B6574C2AF783E200467E76 /* Debug */,
+				B1B6574D2AF783E200467E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B6574E2AF783E200467E76 /* Build configuration list for PBXNativeTarget "guardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B6574F2AF783E200467E76 /* Debug */,
+				B1B657502AF783E200467E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B657512AF783E200467E76 /* Build configuration list for PBXNativeTarget "guardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B657522AF783E200467E76 /* Debug */,
+				B1B657532AF783E200467E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1B6571E2AF783E100467E76 /* Project object */;
+}
