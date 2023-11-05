@@ -24,15 +24,15 @@ class AirDropDisableCheck: Vulnerability {
             
             if output.lowercased() == "1" {
                 status = "Airdrop is disabled!!"
-                checkstatus = "Green"
+                checkStatus = "Green"
             } else {
                 status = "Airdrop is enabled!!"
-                checkstatus = "Red"
+                checkStatus = "Red"
             }
             
         } catch let e {
             print("Error checking \(name): \(e)")
-            checkstatus = "Yellow"
+            checkStatus = "Yellow"
             status = "Error checking Airdrop status"
             self.error = e
         }
@@ -47,7 +47,7 @@ class AirDropDisableCheck: Vulnerability {
             severity: "Medium",
             documentation: "for more information about airdrop please check out the apple official documentation",
             mitigation: "Disabling helps prevent unauthorized access to your remote pc",
-            checkstatus: "",
+            checkStatus: "",
             docID: 123
         )
     }

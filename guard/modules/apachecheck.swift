@@ -26,15 +26,15 @@ class HttpCheck: Vulnerability {
             
             if output.lowercased().contains("snytax ok") {
                 status = "Apache server is running."
-                checkstatus = "Red"
+                checkStatus = "Red"
             } else {
                 status = "Apache server is not running"
-                checkstatus = "Green"
+                checkStatus = "Green"
             }
         } catch let e {
             print("Error checking \(name): \(e)")
             self.error = e
-            checkstatus = "Yellow"
+            checkStatus = "Yellow"
             status = "Error checking HTTP status"
         }
     }
