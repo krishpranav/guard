@@ -37,4 +37,18 @@ class AirDropDisableCheck: Vulnerability {
             self.error = e
         }
     }
+    
+    init() {
+        super.init(
+            name: "airdrop disabled or not checker",
+            description: "checks airdrop is disabled or not",
+            category: "Benchmark CIS",
+            remediation: "To disable airdrop open finder and disable it",
+            severity: "Medium",
+            documentation: "for more information about airdrop please check out the apple official documentation",
+            mitigation: "Disabling helps prevent unauthorized access to your remote pc",
+            checkstatus: "",
+            docID: 123
+        )
+    }
 }
