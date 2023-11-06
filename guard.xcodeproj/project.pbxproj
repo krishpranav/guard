@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B17B0D5E2AF8D13B005415EA /* passwordcheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D5D2AF8D13B005415EA /* passwordcheck.swift */; };
 		B17B0D602AF900F9005415EA /* fileextcheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D5F2AF900F9005415EA /* fileextcheck.swift */; };
+		B17B0D622AF90696005415EA /* nfscheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D612AF90696005415EA /* nfscheck.swift */; };
 		B1B6572A2AF783E100467E76 /* guardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B657292AF783E100467E76 /* guardApp.swift */; };
 		B1B6572C2AF783E100467E76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6572B2AF783E100467E76 /* ContentView.swift */; };
 		B1B6572E2AF783E200467E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B6572D2AF783E200467E76 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		B17B0D5D2AF8D13B005415EA /* passwordcheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordcheck.swift; sourceTree = "<group>"; };
 		B17B0D5F2AF900F9005415EA /* fileextcheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fileextcheck.swift; sourceTree = "<group>"; };
+		B17B0D612AF90696005415EA /* nfscheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfscheck.swift; sourceTree = "<group>"; };
 		B1B657262AF783E100467E76 /* guard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B657292AF783E100467E76 /* guardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardApp.swift; sourceTree = "<group>"; };
 		B1B6572B2AF783E100467E76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				B1B657652AF7D10C00467E76 /* java.swift */,
 				B17B0D5D2AF8D13B005415EA /* passwordcheck.swift */,
 				B17B0D5F2AF900F9005415EA /* fileextcheck.swift */,
+				B17B0D612AF90696005415EA /* nfscheck.swift */,
 			);
 			path = modules;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			files = (
 				B1B657642AF7CC1D00467E76 /* SIP.swift in Sources */,
 				B1B6575C2AF78AB500467E76 /* scanner.swift in Sources */,
+				B17B0D622AF90696005415EA /* nfscheck.swift in Sources */,
 				B1B6572C2AF783E100467E76 /* ContentView.swift in Sources */,
 				B1B657582AF7847800467E76 /* scannermanager.swift in Sources */,
 				B1B6575A2AF784C500467E76 /* vuln.swift in Sources */,
