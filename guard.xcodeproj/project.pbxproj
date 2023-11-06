@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B17B0D5E2AF8D13B005415EA /* passwordcheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D5D2AF8D13B005415EA /* passwordcheck.swift */; };
+		B17B0D602AF900F9005415EA /* fileextcheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D5F2AF900F9005415EA /* fileextcheck.swift */; };
 		B1B6572A2AF783E100467E76 /* guardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B657292AF783E100467E76 /* guardApp.swift */; };
 		B1B6572C2AF783E100467E76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6572B2AF783E100467E76 /* ContentView.swift */; };
 		B1B6572E2AF783E200467E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B6572D2AF783E200467E76 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		B17B0D5D2AF8D13B005415EA /* passwordcheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordcheck.swift; sourceTree = "<group>"; };
+		B17B0D5F2AF900F9005415EA /* fileextcheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fileextcheck.swift; sourceTree = "<group>"; };
 		B1B657262AF783E100467E76 /* guard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B657292AF783E100467E76 /* guardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardApp.swift; sourceTree = "<group>"; };
 		B1B6572B2AF783E100467E76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				B1B657632AF7CC1D00467E76 /* SIP.swift */,
 				B1B657652AF7D10C00467E76 /* java.swift */,
 				B17B0D5D2AF8D13B005415EA /* passwordcheck.swift */,
+				B17B0D5F2AF900F9005415EA /* fileextcheck.swift */,
 			);
 			path = modules;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				B17B0D5E2AF8D13B005415EA /* passwordcheck.swift in Sources */,
 				B1B657602AF78B4000467E76 /* airdropdisablecheck.swift in Sources */,
 				B1B657662AF7D10C00467E76 /* java.swift in Sources */,
+				B17B0D602AF900F9005415EA /* fileextcheck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
