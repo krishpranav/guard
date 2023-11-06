@@ -38,4 +38,8 @@ class FileExtCheck: Vulnerability {
             self.error = e
         }
     }
+    
+    init() {
+        super.init(name: "Check File EXT status", description: "This checks and ensures the filename extensions are turned on in your system or not", category: "Security", remediation: "To turn on filename extension, go to Finder > Preferences > Advanced, and check the 'Show all filename extensions'", severity: "Low", documentation: "for more information, please visit: https://support.apple.com/guide/mac-help/show-or-hide-filename-extensions-on-mac-mh26782/mac", mitigation: "By turning on you will identify the filename extension it also prevents yourself from opening malicious file containing backdoors", docID: 32)
+    }
 }
