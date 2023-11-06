@@ -10,6 +10,7 @@
 		B17B0D5E2AF8D13B005415EA /* passwordcheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D5D2AF8D13B005415EA /* passwordcheck.swift */; };
 		B17B0D602AF900F9005415EA /* fileextcheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D5F2AF900F9005415EA /* fileextcheck.swift */; };
 		B17B0D622AF90696005415EA /* nfscheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D612AF90696005415EA /* nfscheck.swift */; };
+		B17B0D642AF90B3E005415EA /* diagnostic_check.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D632AF90B3E005415EA /* diagnostic_check.swift */; };
 		B1B6572A2AF783E100467E76 /* guardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B657292AF783E100467E76 /* guardApp.swift */; };
 		B1B6572C2AF783E100467E76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6572B2AF783E100467E76 /* ContentView.swift */; };
 		B1B6572E2AF783E200467E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B6572D2AF783E200467E76 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		B17B0D5D2AF8D13B005415EA /* passwordcheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordcheck.swift; sourceTree = "<group>"; };
 		B17B0D5F2AF900F9005415EA /* fileextcheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fileextcheck.swift; sourceTree = "<group>"; };
 		B17B0D612AF90696005415EA /* nfscheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfscheck.swift; sourceTree = "<group>"; };
+		B17B0D632AF90B3E005415EA /* diagnostic_check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diagnostic_check.swift; sourceTree = "<group>"; };
 		B1B657262AF783E100467E76 /* guard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B657292AF783E100467E76 /* guardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardApp.swift; sourceTree = "<group>"; };
 		B1B6572B2AF783E100467E76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				B17B0D5D2AF8D13B005415EA /* passwordcheck.swift */,
 				B17B0D5F2AF900F9005415EA /* fileextcheck.swift */,
 				B17B0D612AF90696005415EA /* nfscheck.swift */,
+				B17B0D632AF90B3E005415EA /* diagnostic_check.swift */,
 			);
 			path = modules;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17B0D642AF90B3E005415EA /* diagnostic_check.swift in Sources */,
 				B1B657642AF7CC1D00467E76 /* SIP.swift in Sources */,
 				B1B6575C2AF78AB500467E76 /* scanner.swift in Sources */,
 				B17B0D622AF90696005415EA /* nfscheck.swift in Sources */,
