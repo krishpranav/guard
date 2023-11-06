@@ -20,7 +20,7 @@ class Vulnerability: Identifiable {
     let mitigation: String
     var error: Error?
     var checkStatus: String?
-    let docID: Int32    
+    let docID: Int32
     
     
     init(name: String, description: String, category: String, remediation: String, severity: String, documentation: String, mitigation: String, checkStatus: String? = nil, docID: Int32) {
