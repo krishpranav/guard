@@ -16,7 +16,27 @@ class SandboxCheck: Vulnerability {
         
         task.executableURL = URL(fileURLWithPath: "/usr/bin/codesign")
         task.arguments = ["--display", "--entitlements", ":-", Bundle.main.bundlePath]
-    
+        
+        task.standardOutput = outputPipe
+        task.standardError = errorPipe
+        
+        do {
+            try task.run()
+            task.waitUntilExit()
+            
+            let outputData = outputPipe.fileHandleForReading.readDataToEndOfFile()
+            let output = String(data: outputData, encoding: .utf8) ?? ""
+            let entitlements = try PropertyListSerialization.propertyList(from: output.data(using: .utf8)!, options: [], format: nil) as? [String: Any]
+            
+            print("Entitlements: \(entitlements) ?? [:]")
+            
+            
+            // TODO: check entitlements
+            
+        } catch let e {
+            print("Error checking app sandbox: \(e)")
+            self.error = e
+        }
     }
     
     init() {
