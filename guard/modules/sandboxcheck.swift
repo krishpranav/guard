@@ -31,7 +31,15 @@ class SandboxCheck: Vulnerability {
             print("Entitlements: \(entitlements) ?? [:]")
             
             
-            // TODO: check entitlements
+            if let sandbox = entitlements?["com.apple.security.app-sandbox"] as? Bool {
+                if sandbox {
+                    status = "Not vulnerable"
+                } else {
+                    status = "App sandbox not enabled"
+                }
+            } else {
+                status = "Unknown"
+            }
             
         } catch let e {
             print("Error checking app sandbox: \(e)")
