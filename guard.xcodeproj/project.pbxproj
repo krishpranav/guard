@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B174516C2AFA133100343974 /* sandboxcheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174516B2AFA133100343974 /* sandboxcheck.swift */; };
 		B17B0D5E2AF8D13B005415EA /* passwordcheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D5D2AF8D13B005415EA /* passwordcheck.swift */; };
 		B17B0D602AF900F9005415EA /* fileextcheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D5F2AF900F9005415EA /* fileextcheck.swift */; };
 		B17B0D622AF90696005415EA /* nfscheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B0D612AF90696005415EA /* nfscheck.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B174516B2AFA133100343974 /* sandboxcheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandboxcheck.swift; sourceTree = "<group>"; };
 		B17B0D5D2AF8D13B005415EA /* passwordcheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordcheck.swift; sourceTree = "<group>"; };
 		B17B0D5F2AF900F9005415EA /* fileextcheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fileextcheck.swift; sourceTree = "<group>"; };
 		B17B0D612AF90696005415EA /* nfscheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfscheck.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				B17B0D5F2AF900F9005415EA /* fileextcheck.swift */,
 				B17B0D612AF90696005415EA /* nfscheck.swift */,
 				B17B0D632AF90B3E005415EA /* diagnostic_check.swift */,
+				B174516B2AFA133100343974 /* sandboxcheck.swift */,
 			);
 			path = modules;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				B1B657642AF7CC1D00467E76 /* SIP.swift in Sources */,
 				B1B6575C2AF78AB500467E76 /* scanner.swift in Sources */,
 				B17B0D622AF90696005415EA /* nfscheck.swift in Sources */,
+				B174516C2AFA133100343974 /* sandboxcheck.swift in Sources */,
 				B1B6572C2AF783E100467E76 /* ContentView.swift in Sources */,
 				B1B657582AF7847800467E76 /* scannermanager.swift in Sources */,
 				B1B6575A2AF784C500467E76 /* vuln.swift in Sources */,
